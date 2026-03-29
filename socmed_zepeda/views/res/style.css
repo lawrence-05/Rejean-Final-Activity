@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+   font-family: 'Poppins', sans-serif;
+}
+body{
+    background:url('banner.jpg') no-repeat;
+    background-size: cover;
+        font-family: 'Calibri';
+}
+.reg-form{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    width: 25%;
+    padding: 2em;
+    margin: 1em auto;
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px white;
+    margin-top: 8%;
+    backdrop-filter: blur(5px);
+}
+input{
+    width: 95%;
+    margin: 1em auto;
+    margin-top: 0em;
+    padding: .5em .2em;
+}
+label{
+    font-size: .9em;
+    color: white;
+}
+input[type='submit']{
+    width: 97.5%;
+    background-color: #1b0b2b;
+    color: #fffefe;
+    outline: none;
+    border: none;
+    padding: .6em .2em;
+    border-radius: 5px;
+}
+
+input[type='submit']:hover{
+    background-color: #9a4de8;
+    color: #fffefe;
+}
+.nav{
+    text-align:center;
+    display: inline-block;
+    backdrop-filter: blur(5px);
+    margin: 0px;
+    border-radius: 5px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    
+    
+}
+.nav-right{
+    display: inline-block;
+    width: 20%;
+    margin: 0px;
+    text-align: left;
+    padding: 10px 20px;
+}
+.nav-right ul{
+    list-style-type: none;
+    margin: 0px;
+}
+.nav-right li{
+    display: inline-block;
+    padding:1em;
+   
+}
+.nav-right li:hover{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.nav-left{
+    display: inline-block;
+    width: 70%;
+    margin-right: auto;
+    text-align: left;
+}
+.nav-left ul{
+    list-style-type: none;
+    margin: 0px;
+}
+.nav-left li{
+    display: inline-block;
+    padding: 1em;
+}
+.nav-left li:hover{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}  
+.logo{
+    background: url('LOGO.png');
+    border-radius: 50px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;   
+    font-weight: 500;
+}
+
+.title{
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    text-shadow: 4px 3px 3px #333e;
+}
+.alert{
+ text-align: center;
+ color: #ee6666;
+ font-size: 1em;
+}
+
+.container{
+    position:relative;
+    margin: 1em auto;
+    min-height: 80vh;
+    min-width:75vw;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.8px);
+    
+}
+.banner{
+    width: 100%;
+    background: url('bhaner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    border-radius: 10px;
+}   
+#banner-propic{
+    background: url('rihina.jpg');
+    background-size: cover;
+    background-color: #fffefe;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    top: 30vh;
+    left: 10vh;
+    box-shadow: 4px 3px 3px #443e;
+}
+#banner-name{
+    position: absolute;
+    top: 35vh;
+    left: 32vh;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 4px #333;
+}
+.post-container{
+    overflow: hidden;
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+}
+#post-area{
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 1em 1em;
+}
+#post-btn{
+    margin: 1em auto;
+    width: 100%;
+}
+.post{
+    width: 85%;
+    border: solid .5px;
+    border-radius: 15px;
+    margin: .2em auto;
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 4px 4px #333e;
+    text-shadow: 2px 3px 3px #333e;
+}
+.post-content{
+    margin-left: 2em;
+    margin-top: .5em;
+}
+.timeline-cointainer{
+    position: relative;
+    margin: 1em auto;
+    min-height: 40vh;
+    min-width: 50vh;
+    width: 60%;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 2em;
+}
+
